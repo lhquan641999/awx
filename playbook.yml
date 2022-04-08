@@ -7,7 +7,7 @@
   hosts: gitlab
   become: true
   vars_files:
-    - ansible-role-gitlab/vars/main.yml
+    - gitlab/vars/main.yml
   roles:
     - gitlab
   pre_tasks:
